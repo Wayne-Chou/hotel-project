@@ -16,6 +16,9 @@ defineProps({
   number: {
     type: String,
   },
+  name: {
+    type: String,
+  },
 });
 const emit = defineEmits(["cardClick"]);
 

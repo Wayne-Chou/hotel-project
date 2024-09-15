@@ -1,6 +1,6 @@
 <script setup>
 import { ref } from "vue";
-// import { axios } from "axios";
+import axios from "axios";
 import FavoriteCard from "@/components/FavoriteCard.vue";
 import PopularCard from "@/components/PopularCard.vue";
 
