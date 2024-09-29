@@ -34,6 +34,9 @@ const handleClick = () => {
 }
 .fav-restaurant div img {
   border-radius: 10px;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
 }
 
 .fav-restaurant div span {
@@ -42,5 +45,6 @@ const handleClick = () => {
   bottom: 10px;
   left: 10px;
   z-index: 5;
+  color: #fff;
 }
 </style>

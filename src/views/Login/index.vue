@@ -1,7 +1,7 @@
 <script setup>
 import router from "@/router";
 
-// import axios from "axios";
+import axios from "axios";
 import { useI18n } from "vue-i18n";
 import { userApi } from "@/api/module/user";
 import { reactive, ref, onMounted } from "vue";

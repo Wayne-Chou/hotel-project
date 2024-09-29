@@ -1,10 +1,21 @@
 <script setup>
 import { useRouter } from "vue-router";
 import Logo from "@/assets/img/logo.png";
+import { useI18n } from "vue-i18n";
+import { setLanguage } from "@/utils/localStorage";
 
 const router = useRouter();
 const changePage = (url) => {
   router.push(url);
+};
+
+// 翻譯
+const { t, locale } = useI18n();
+console.log(locale.value);
+const changeLanguage = () => {
+  const newLanguage = locale.value === "zh_TW" ? "en_US" : "zh_TW";
+  locale.value = newLanguage;
+  setLanguage(newLanguage);
 };
 </script>
 
@@ -16,7 +27,11 @@ const changePage = (url) => {
     <div class="check-box">
       <div class="input-box">
         <div class="input">
-          <input type="text" value="" placeholder="您想要去哪裡?" />
+          <input
+            type="text"
+            value=""
+            :placeholder="t('location_placeholder')"
+          />
           <i class="fa-solid fa-location-dot"></i>
         </div>
         <div class="input">
@@ -32,7 +47,9 @@ const changePage = (url) => {
 
     <div class="LoginRegister">
       <div class="LoginRegister-box">
-        <div class="language-icon"><i class="fa-solid fa-globe"></i></div>
+        <div class="language-icon" @click="changeLanguage">
+          <i class="fa-solid fa-globe"></i>
+        </div>
         <div class="user-icon" @click="changePage('/login')">
           <i class="fa-solid fa-user"></i>
         </div>
@@ -97,5 +114,11 @@ const changePage = (url) => {
 .header .LoginRegister .LoginRegister-box .user-icon i {
   cursor: pointer;
   font-size: 25px;
+}
+
+.header .check-box {
+  position: sticky;
+  top: 0;
+  z-index: 99;
 }
 </style>
