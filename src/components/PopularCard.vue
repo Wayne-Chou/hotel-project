@@ -38,6 +38,8 @@ const handleClick = () => {
   display: inline-block;
 }
 .pop-restaurant div img {
+  width: 400px;
+  height: 400px;
   border-radius: 10px 10px 0 0;
   vertical-align: middle;
 }
