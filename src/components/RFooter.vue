@@ -3,28 +3,33 @@
 
 <template>
   <footer class="footer">
-    <div>
-      <h3>熱門目的地</h3>
-      <a href="">台北飯店</a>
-      <a href="">高雄飯店</a>
-      <a href="">礁溪飯店</a>
-    </div>
-    <div>
-      <h3>支援和常見問題</h3>
-      <a href="">您的預訂</a>
-      <a href="">常見問題</a>
-      <a href="">聯絡我們</a>
-    </div>
-    <div>
-      <h3>其他資訊</h3>
-      <a href="">關於我們</a>
-      <a href="">工作機會</a>
-      <a href="">旅遊指南</a>
+    <div class="footer-content">
+      <div>
+        <h3>熱門目的地</h3>
+        <a href="">台北飯店</a>
+        <a href="">高雄飯店</a>
+        <a href="">礁溪飯店</a>
+      </div>
+      <div>
+        <h3>支援和常見問題</h3>
+        <a href="">您的預訂</a>
+        <a href="">常見問題</a>
+        <a href="">聯絡我們</a>
+      </div>
+      <div>
+        <h3>其他資訊</h3>
+        <a href="">關於我們</a>
+        <a href="">工作機會</a>
+        <a href="">旅遊指南</a>
+      </div>
     </div>
   </footer>
 </template>
 <style scoped>
 .footer {
+  background: #fbf8f1;
+}
+.footer .footer-content {
   max-width: 1280px;
   width: 100%;
   padding: 20px 0;

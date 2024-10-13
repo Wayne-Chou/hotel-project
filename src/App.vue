@@ -12,8 +12,8 @@ const location = ref(houseStore.location);
 const getThemes = async () => {
   const { data } = await homeApi.getThemes();
   // 頁面修改
-  houses.favorite = data.favorite;
-  houses.location = data.location;
+  // houses.favorite = data.favorite;
+  // houses.location = data.location;
 
   // 存進store
   houseStore.setFavorite(data.favorite);

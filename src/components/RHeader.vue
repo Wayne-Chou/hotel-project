@@ -21,37 +21,39 @@ const changeLanguage = () => {
 
 <template>
   <header class="header">
-    <div class="header-logo">
-      <img :src="Logo" alt="" />
-    </div>
-    <div class="check-box">
-      <div class="input-box">
-        <div class="input">
-          <input
-            type="text"
-            value=""
-            :placeholder="t('location_placeholder')"
-          />
-          <i class="fa-solid fa-location-dot"></i>
-        </div>
-        <div class="input">
-          <input type="text" value="" />
-          <i class="fa-solid fa-calendar"></i>
-        </div>
-        <div class="input">
-          <input type="text" value="" />
-          <i class="fa-solid fa-user"></i>
+    <div class="header-content">
+      <div class="header-logo">
+        <img :src="Logo" alt="" />
+      </div>
+      <div class="check-box">
+        <div class="input-box">
+          <div class="input">
+            <input
+              type="text"
+              value=""
+              :placeholder="t('location_placeholder')"
+            />
+            <i class="fa-solid fa-location-dot"></i>
+          </div>
+          <div class="input">
+            <input type="text" value="" />
+            <i class="fa-solid fa-calendar"></i>
+          </div>
+          <div class="input">
+            <input type="text" value="" />
+            <i class="fa-solid fa-user"></i>
+          </div>
         </div>
       </div>
-    </div>
 
-    <div class="LoginRegister">
-      <div class="LoginRegister-box">
-        <div class="language-icon" @click="changeLanguage">
-          <i class="fa-solid fa-globe"></i>
-        </div>
-        <div class="user-icon" @click="changePage('/login')">
-          <i class="fa-solid fa-user"></i>
+      <div class="LoginRegister">
+        <div class="LoginRegister-box">
+          <div class="language-icon" @click="changeLanguage">
+            <i class="fa-solid fa-globe"></i>
+          </div>
+          <div class="user-icon" @click="changePage('/login')">
+            <i class="fa-solid fa-user"></i>
+          </div>
         </div>
       </div>
     </div>
@@ -59,17 +61,25 @@ const changeLanguage = () => {
 </template>
 <style scoped>
 .header {
+  background: #fff;
+  box-shadow: 0 2px 0.75rem rgba(12, 14, 28, 0.08);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+.header .header-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px 0;
+
   max-width: 1280px;
   width: 100%;
   margin: 0 auto;
 }
-
 .header .header-logo {
   max-width: 80px;
+
   width: 100%;
 }
 .header .header-logo img {

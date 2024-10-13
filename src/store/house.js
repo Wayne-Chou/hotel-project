@@ -11,9 +11,11 @@ export const useHouseStore = defineStore(
     const setLocation = (newLocation) => {
       location.value = newLocation;
     };
+
     return {
       favorite,
       location,
+
       setFavorite,
       setLocation,
     };
