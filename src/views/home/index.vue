@@ -1,10 +1,9 @@
 <script setup>
-import { ref, onMounted } from "vue";
+import { ref, onMounted, computed, reactive } from "vue";
 import axios from "axios";
 import FavoriteCard from "@/components/FavoriteCard.vue";
 import PopularCard from "@/components/PopularCard.vue";
 import PromotionArea from "@/components/PromotionArea.vue";
-import { reactive } from "vue";
 import { useHouseStore } from "@/store/house";
 import { useRouter } from "vue-router";
 
@@ -14,11 +13,8 @@ const changePage = (url) => {
 };
 
 const houseStore = useHouseStore();
-console.log(houseStore);
-const houses = reactive({
-  favorite: houseStore.favorite,
-  location: houseStore.location,
-});
+const favorite = computed(() => houseStore.favorite);
+const location = computed(() => houseStore.location);
 </script>
 
 <template>
@@ -26,10 +22,10 @@ const houses = reactive({
   <div class="fav-restaurant">
     <favorite-card
       @click="changePage(`/rooms/${item.theme}?search=favorite`)"
-      v-for="item in houses.favorite"
+      v-for="item in favorite"
       :key="item.id"
       :id="item.id"
-      :img-src="item.img"
+      :img-src="item.img[0]"
       :name="item.theme"
     />
   </div>
@@ -39,7 +35,7 @@ const houses = reactive({
   <div class="pop-restaurant">
     <popular-card
       @click="changePage(`/rooms/${item.theme}?search=location`)"
-      v-for="item in houses.location"
+      v-for="item in location"
       :key="item.id"
       :id="item.id"
       :img-src="item.img"

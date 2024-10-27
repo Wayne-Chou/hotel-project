@@ -115,4 +115,10 @@ defineProps({
 .hotel-box .hotel-review-price .hotel-review .review-count-number {
   font-size: 12px;
 }
+.hotel-box .hotel-search-result .hotel-item .hotel-img {
+  width: 50%;
+}
+.hotel-box .hotel-search-result .hotel-item .hotel-data {
+  width: 50%;
+}
 </style>
