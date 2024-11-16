@@ -8,6 +8,40 @@
       "desc": "位於台北市信義區精華地段的台北君悅酒店，緊臨世界知名地標台北101，房客可直接利用酒店東側門的連結天橋，輕鬆前往台北101參觀購物。酒店更與世貿展覽館相連，國際會議中心、國貿大樓等近在咫尺。",
       "price": 8000,
       "score": 4.7,
+      "equipments": [
+        {
+          "label": "健身房",
+          "value": "gym"
+        },
+        {
+          "label": "游泳池",
+          "value": "pool"
+        },
+        {
+          "label": "餐廳",
+          "value": "restaurant"
+        },
+        {
+          "label": "水療中心",
+          "value": "spa"
+        },
+        {
+          "label": "免費 Wi-Fi",
+          "value": "wifi"
+        },
+        {
+          "label": "停車場",
+          "value": "parking"
+        },
+        {
+          "label": "客房服務",
+          "value": "room_service"
+        },
+        {
+          "label": "機場接駁",
+          "value": "airport_shuttle"
+        }
+      ],
       "gym": "健身房",
       "pool": "游泳池",
       "restaurant": "餐廳",
@@ -15,9 +49,7 @@
       "wifi": "免費 Wi-Fi",
       "parking": "停車場",
       "room_service": "客房服務",
-      "bar": "酒吧",
-      "conference_room": "會議室",
-      "airport_shuttle": "機場接駁",
+
       "img": [
         "https://images.unsplash.com/photo-1453063574201-48d2ffe2e4c5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "https://images.unsplash.com/photo-1549638441-b787d2e11f14?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -82,9 +114,42 @@
       "wifi": "免費 Wi-Fi",
       "parking": "停車場",
       "room_service": "客房服務",
-      "bar": "酒吧",
-      "conference_room": "會議室",
+
       "airport_shuttle": "機場接駁",
+      "equipments": [
+        {
+          "label": "健身房",
+          "value": "gym"
+        },
+        {
+          "label": "游泳池",
+          "value": "pool"
+        },
+        {
+          "label": "餐廳",
+          "value": "restaurant"
+        },
+        {
+          "label": "水療中心",
+          "value": "spa"
+        },
+        {
+          "label": "免費 Wi-Fi",
+          "value": "wifi"
+        },
+        {
+          "label": "停車場",
+          "value": "parking"
+        },
+        {
+          "label": "客房服務",
+          "value": "room_service"
+        },
+        {
+          "label": "機場接駁",
+          "value": "airport_shuttle"
+        }
+      ],
       "img": [
         "https://images.unsplash.com/photo-1514803400321-3ca29fc47334?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "https://images.unsplash.com/photo-1568495248636-6432b97bd949?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -148,10 +213,43 @@
       "spa": "水療中心",
       "wifi": "免費 Wi-Fi",
       "parking": "停車場",
-      "room_service": "客房服務",
-      "bar": "酒吧",
+
       "conference_room": "會議室",
       "airport_shuttle": "機場接駁",
+      "equipments": [
+        {
+          "label": "健身房",
+          "value": "gym"
+        },
+        {
+          "label": "游泳池",
+          "value": "pool"
+        },
+        {
+          "label": "餐廳",
+          "value": "restaurant"
+        },
+        {
+          "label": "水療中心",
+          "value": "spa"
+        },
+        {
+          "label": "免費 Wi-Fi",
+          "value": "wifi"
+        },
+        {
+          "label": "停車場",
+          "value": "parking"
+        },
+        {
+          "label": "客房服務",
+          "value": "room_service"
+        },
+        {
+          "label": "機場接駁",
+          "value": "airport_shuttle"
+        }
+      ],
       "img": [
         "https://images.unsplash.com/photo-1440151050977-247552660a3b?q=80&w=1990&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "https://images.unsplash.com/photo-1559841771-599b6eeaca62?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -216,9 +314,41 @@
       "wifi": "免費 Wi-Fi",
       "parking": "停車場",
       "room_service": "客房服務",
-      "bar": "酒吧",
-      "conference_room": "會議室",
       "airport_shuttle": "機場接駁",
+      "equipments": [
+        {
+          "label": "健身房",
+          "value": "gym"
+        },
+        {
+          "label": "游泳池",
+          "value": "pool"
+        },
+        {
+          "label": "餐廳",
+          "value": "restaurant"
+        },
+        {
+          "label": "水療中心",
+          "value": "spa"
+        },
+        {
+          "label": "免費 Wi-Fi",
+          "value": "wifi"
+        },
+        {
+          "label": "停車場",
+          "value": "parking"
+        },
+        {
+          "label": "客房服務",
+          "value": "room_service"
+        },
+        {
+          "label": "機場接駁",
+          "value": "airport_shuttle"
+        }
+      ],
       "img": [
         "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "https://plus.unsplash.com/premium_photo-1661879252375-7c1db1932572?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -283,9 +413,41 @@
       "wifi": "免費 Wi-Fi",
       "parking": "停車場",
       "room_service": "客房服務",
-      "bar": "酒吧",
-      "conference_room": "會議室",
       "airport_shuttle": "機場接駁",
+      "equipments": [
+        {
+          "label": "健身房",
+          "value": "gym"
+        },
+        {
+          "label": "游泳池",
+          "value": "pool"
+        },
+        {
+          "label": "餐廳",
+          "value": "restaurant"
+        },
+        {
+          "label": "水療中心",
+          "value": "spa"
+        },
+        {
+          "label": "免費 Wi-Fi",
+          "value": "wifi"
+        },
+        {
+          "label": "停車場",
+          "value": "parking"
+        },
+        {
+          "label": "客房服務",
+          "value": "room_service"
+        },
+        {
+          "label": "機場接駁",
+          "value": "airport_shuttle"
+        }
+      ],
       "img": [
         "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "https://plus.unsplash.com/premium_photo-1661964071015-d97428970584?q=80&w=1920&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -350,9 +512,41 @@
       "wifi": "免費 Wi-Fi",
       "parking": "停車場",
       "room_service": "客房服務",
-      "bar": "酒吧",
-      "conference_room": "會議室",
       "airport_shuttle": "機場接駁",
+      "equipments": [
+        {
+          "label": "健身房",
+          "value": "gym"
+        },
+        {
+          "label": "游泳池",
+          "value": "pool"
+        },
+        {
+          "label": "餐廳",
+          "value": "restaurant"
+        },
+        {
+          "label": "水療中心",
+          "value": "spa"
+        },
+        {
+          "label": "免費 Wi-Fi",
+          "value": "wifi"
+        },
+        {
+          "label": "停車場",
+          "value": "parking"
+        },
+        {
+          "label": "客房服務",
+          "value": "room_service"
+        },
+        {
+          "label": "機場接駁",
+          "value": "airport_shuttle"
+        }
+      ],
       "img": [
         "https://images.unsplash.com/photo-1439130490301-25e322d88054?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "https://images.unsplash.com/photo-1507038772120-7fff76f79d79?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -417,9 +611,41 @@
       "wifi": "免費 Wi-Fi",
       "parking": "停車場",
       "room_service": "客房服務",
-      "bar": "酒吧",
-      "conference_room": "會議室",
       "airport_shuttle": "機場接駁",
+      "equipments": [
+        {
+          "label": "健身房",
+          "value": "gym"
+        },
+        {
+          "label": "游泳池",
+          "value": "pool"
+        },
+        {
+          "label": "餐廳",
+          "value": "restaurant"
+        },
+        {
+          "label": "水療中心",
+          "value": "spa"
+        },
+        {
+          "label": "免費 Wi-Fi",
+          "value": "wifi"
+        },
+        {
+          "label": "停車場",
+          "value": "parking"
+        },
+        {
+          "label": "客房服務",
+          "value": "room_service"
+        },
+        {
+          "label": "機場接駁",
+          "value": "airport_shuttle"
+        }
+      ],
       "img": [
         "https://plus.unsplash.com/premium_photo-1682913629540-3857602b540c?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "https://images.unsplash.com/photo-1631049035433-4409c68ca6cf?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -484,9 +710,41 @@
       "wifi": "免費 Wi-Fi",
       "parking": "停車場",
       "room_service": "客房服務",
-      "bar": "酒吧",
-      "conference_room": "會議室",
       "airport_shuttle": "機場接駁",
+      "equipments": [
+        {
+          "label": "健身房",
+          "value": "gym"
+        },
+        {
+          "label": "游泳池",
+          "value": "pool"
+        },
+        {
+          "label": "餐廳",
+          "value": "restaurant"
+        },
+        {
+          "label": "水療中心",
+          "value": "spa"
+        },
+        {
+          "label": "免費 Wi-Fi",
+          "value": "wifi"
+        },
+        {
+          "label": "停車場",
+          "value": "parking"
+        },
+        {
+          "label": "客房服務",
+          "value": "room_service"
+        },
+        {
+          "label": "機場接駁",
+          "value": "airport_shuttle"
+        }
+      ],
       "img": [
         "https://images.unsplash.com/photo-1535827841776-24afc1e255ac?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "https://images.unsplash.com/photo-1631049307567-d20d6d97f64a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -551,9 +809,42 @@
       "wifi": "免費 Wi-Fi",
       "parking": "停車場",
       "room_service": "客房服務",
-      "bar": "酒吧",
-      "conference_room": "會議室",
+
       "airport_shuttle": "機場接駁",
+      "equipments": [
+        {
+          "label": "健身房",
+          "value": "gym"
+        },
+        {
+          "label": "游泳池",
+          "value": "pool"
+        },
+        {
+          "label": "餐廳",
+          "value": "restaurant"
+        },
+        {
+          "label": "水療中心",
+          "value": "spa"
+        },
+        {
+          "label": "免費 Wi-Fi",
+          "value": "wifi"
+        },
+        {
+          "label": "停車場",
+          "value": "parking"
+        },
+        {
+          "label": "客房服務",
+          "value": "room_service"
+        },
+        {
+          "label": "機場接駁",
+          "value": "airport_shuttle"
+        }
+      ],
       "img": [
         "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "https://images.unsplash.com/photo-1631049552351-16da4767cc98?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -618,9 +909,42 @@
       "wifi": "免費 Wi-Fi",
       "parking": "停車場",
       "room_service": "客房服務",
-      "bar": "酒吧",
-      "conference_room": "會議室",
+
       "airport_shuttle": "機場接駁",
+      "equipments": [
+        {
+          "label": "健身房",
+          "value": "gym"
+        },
+        {
+          "label": "游泳池",
+          "value": "pool"
+        },
+        {
+          "label": "餐廳",
+          "value": "restaurant"
+        },
+        {
+          "label": "水療中心",
+          "value": "spa"
+        },
+        {
+          "label": "免費 Wi-Fi",
+          "value": "wifi"
+        },
+        {
+          "label": "停車場",
+          "value": "parking"
+        },
+        {
+          "label": "客房服務",
+          "value": "room_service"
+        },
+        {
+          "label": "機場接駁",
+          "value": "airport_shuttle"
+        }
+      ],
       "img": [
         "https://images.unsplash.com/photo-1622396089527-b40d16c63aba?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "https://images.unsplash.com/photo-1631049035293-745416a778d0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -685,9 +1009,41 @@
       "wifi": "免費 Wi-Fi",
       "parking": "停車場",
       "room_service": "客房服務",
-      "bar": "酒吧",
-      "conference_room": "會議室",
       "airport_shuttle": "機場接駁",
+      "equipments": [
+        {
+          "label": "健身房",
+          "value": "gym"
+        },
+        {
+          "label": "游泳池",
+          "value": "pool"
+        },
+        {
+          "label": "餐廳",
+          "value": "restaurant"
+        },
+        {
+          "label": "水療中心",
+          "value": "spa"
+        },
+        {
+          "label": "免費 Wi-Fi",
+          "value": "wifi"
+        },
+        {
+          "label": "停車場",
+          "value": "parking"
+        },
+        {
+          "label": "客房服務",
+          "value": "room_service"
+        },
+        {
+          "label": "機場接駁",
+          "value": "airport_shuttle"
+        }
+      ],
       "img": [
         "https://plus.unsplash.com/premium_photo-1675745329378-5573c360f69f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "https://images.unsplash.com/photo-1631049421978-ba025ff66fd9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -752,9 +1108,41 @@
       "wifi": "免費 Wi-Fi",
       "parking": "停車場",
       "room_service": "客房服務",
-      "bar": "酒吧",
-      "conference_room": "會議室",
       "airport_shuttle": "機場接駁",
+      "equipments": [
+        {
+          "label": "健身房",
+          "value": "gym"
+        },
+        {
+          "label": "游泳池",
+          "value": "pool"
+        },
+        {
+          "label": "餐廳",
+          "value": "restaurant"
+        },
+        {
+          "label": "水療中心",
+          "value": "spa"
+        },
+        {
+          "label": "免費 Wi-Fi",
+          "value": "wifi"
+        },
+        {
+          "label": "停車場",
+          "value": "parking"
+        },
+        {
+          "label": "客房服務",
+          "value": "room_service"
+        },
+        {
+          "label": "機場接駁",
+          "value": "airport_shuttle"
+        }
+      ],
       "img": [
         "https://plus.unsplash.com/premium_photo-1678240508014-d1ab7345bfe6?q=80&w=1942&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "https://images.unsplash.com/photo-1631049035428-f9ddac7651d7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -807,64 +1195,1316 @@
   ],
   "location": [
     {
+      "id": 0,
+      "theme": "新北市",
+      "city": "新北",
+      "title": "新北板橋希爾頓酒店",
+      "desc": "位於新北市板橋區，靠近板橋高鐵站和大遠百商圈，提供舒適的住宿環境和一流的設施，非常適合商務與休閒旅客。",
+      "price": 6500,
+      "score": 4.5,
+      "equipments": [
+        {
+          "label": "健身房",
+          "value": "gym"
+        },
+        {
+          "label": "游泳池",
+          "value": "pool"
+        },
+        {
+          "label": "餐廳",
+          "value": "restaurant"
+        },
+        {
+          "label": "水療中心",
+          "value": "spa"
+        },
+        {
+          "label": "免費 Wi-Fi",
+          "value": "wifi"
+        },
+        {
+          "label": "停車場",
+          "value": "parking"
+        },
+        {
+          "label": "客房服務",
+          "value": "room_service"
+        },
+        {
+          "label": "機場接駁",
+          "value": "airport_shuttle"
+        }
+      ],
+      "gym": "健身房",
+      "pool": "游泳池",
+      "restaurant": "餐廳",
+      "spa": "水療中心",
+      "wifi": "免費 Wi-Fi",
+      "parking": "停車場",
+      "room_service": "客房服務",
+      "bar": "酒吧",
+      "conference_room": "會議室",
+      "airport_shuttle": "機場接駁",
+      "img": [
+        "https://images.unsplash.com/photo-1453063574201-48d2ffe2e4c5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1549638441-b787d2e11f14?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1453063574201-48d2ffe2e4c5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1453063574201-48d2ffe2e4c5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1453063574201-48d2ffe2e4c5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      ],
+      "reservation": [
+        {
+          "id": 1,
+          "image": "https://images.unsplash.com/photo-1621891334481-5c14b369d9d7?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "title": "Wonderful Room",
+          "type": "客房",
+          "bed": "1 張特大雙人床",
+          "size": 43,
+          "service": [
+            "免費無線上網免費自助停車",
+            "可容納 3 人 (依實際入住人數計費)"
+          ],
+          "price": 10000
+        },
+        {
+          "id": 2,
+          "image": "https://images.unsplash.com/photo-1621891334481-5c14b369d9d7?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "title": "Wonderful Room",
+          "type": "客房",
+          "bed": "1 張特大雙人床",
+          "size": 43,
+          "service": [
+            "免費無線上網免費自助停車",
+            "可容納 3 人 (依實際入住人數計費)"
+          ],
+          "price": 6500
+        },
+        {
+          "id": 3,
+          "image": "https://images.unsplash.com/photo-1621891334481-5c14b369d9d7?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "title": "Wonderful Room",
+          "type": "客房",
+          "bed": "1 張特大雙人床",
+          "size": 43,
+          "service": [
+            "免費無線上網免費自助停車",
+            "可容納 3 人 (依實際入住人數計費)"
+          ],
+          "price": 15000
+        }
+      ]
+    },
+    {
       "id": 1,
       "theme": "台北市",
-      "img": "https://images.unsplash.com/photo-1519126400611-d57095205936?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      "title": "台北君悅酒店",
+      "desc": "位於台北市信義區精華地段的台北君悅酒店，緊臨世界知名地標台北101，房客可直接利用酒店東側門的連結天橋，輕鬆前往台北101參觀購物。酒店更與世貿展覽館相連，國際會議中心、國貿大樓等近在咫尺。",
+      "price": 8000,
+      "score": 4.7,
+      "equipments": [
+        {
+          "label": "健身房",
+          "value": "gym"
+        },
+        {
+          "label": "游泳池",
+          "value": "pool"
+        },
+        {
+          "label": "餐廳",
+          "value": "restaurant"
+        },
+        {
+          "label": "水療中心",
+          "value": "spa"
+        },
+        {
+          "label": "免費 Wi-Fi",
+          "value": "wifi"
+        },
+        {
+          "label": "停車場",
+          "value": "parking"
+        },
+        {
+          "label": "客房服務",
+          "value": "room_service"
+        },
+        {
+          "label": "機場接駁",
+          "value": "airport_shuttle"
+        }
+      ],
+      "gym": "健身房",
+      "pool": "游泳池",
+      "restaurant": "餐廳",
+      "spa": "水療中心",
+      "wifi": "免費 Wi-Fi",
+      "parking": "停車場",
+      "room_service": "客房服務",
+      "bar": "酒吧",
+      "conference_room": "會議室",
+      "airport_shuttle": "機場接駁",
+      "img": [
+        "https://images.unsplash.com/photo-1519126400611-d57095205936?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1549638441-b787d2e11f14?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1453063574201-48d2ffe2e4c5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1453063574201-48d2ffe2e4c5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1453063574201-48d2ffe2e4c5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      ],
+      "reservation": [
+        {
+          "id": 1,
+          "image": "https://images.unsplash.com/photo-1621891334481-5c14b369d9d7?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "title": "Wonderful Room",
+          "type": "客房",
+          "bed": "1 張特大雙人床",
+          "size": 43,
+          "service": [
+            "免費無線上網免費自助停車",
+            "可容納 3 人 (依實際入住人數計費)"
+          ],
+          "price": 10000
+        },
+        {
+          "id": 2,
+          "image": "https://images.unsplash.com/photo-1621891334481-5c14b369d9d7?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "title": "Wonderful Room",
+          "type": "客房",
+          "bed": "1 張特大雙人床",
+          "size": 43,
+          "service": [
+            "免費無線上網免費自助停車",
+            "可容納 3 人 (依實際入住人數計費)"
+          ],
+          "price": 6500
+        },
+        {
+          "id": 3,
+          "image": "https://images.unsplash.com/photo-1621891334481-5c14b369d9d7?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "title": "Wonderful Room",
+          "type": "客房",
+          "bed": "1 張特大雙人床",
+          "size": 43,
+          "service": [
+            "免費無線上網免費自助停車",
+            "可容納 3 人 (依實際入住人數計費)"
+          ],
+          "price": 15000
+        }
+      ]
     },
     {
       "id": 2,
       "theme": "新北市",
-      "img": "https://images.unsplash.com/photo-1639331452153-e39239e1c2f0?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      "title": "淡水福容大飯店",
+      "desc": "位於新北市淡水區，靠近淡水老街和漁人碼頭，擁有無敵海景和高級溫泉設施，是遠離城市喧囂的理想住宿選擇。",
+      "price": 7200,
+      "score": 4.6,
+      "equipments": [
+        {
+          "label": "健身房",
+          "value": "gym"
+        },
+        {
+          "label": "游泳池",
+          "value": "pool"
+        },
+        {
+          "label": "餐廳",
+          "value": "restaurant"
+        },
+        {
+          "label": "水療中心",
+          "value": "spa"
+        },
+        {
+          "label": "免費 Wi-Fi",
+          "value": "wifi"
+        },
+        {
+          "label": "停車場",
+          "value": "parking"
+        },
+        {
+          "label": "客房服務",
+          "value": "room_service"
+        },
+        {
+          "label": "機場接駁",
+          "value": "airport_shuttle"
+        }
+      ],
+      "gym": "健身房",
+      "pool": "游泳池",
+      "restaurant": "餐廳",
+      "spa": "水療中心",
+      "wifi": "免費 Wi-Fi",
+      "parking": "停車場",
+      "room_service": "客房服務",
+      "bar": "酒吧",
+      "conference_room": "會議室",
+      "airport_shuttle": "機場接駁",
+      "img": [
+        "https://images.unsplash.com/photo-1639331452153-e39239e1c2f0?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+
+        "https://images.unsplash.com/photo-1549638441-b787d2e11f14?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1453063574201-48d2ffe2e4c5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1453063574201-48d2ffe2e4c5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1453063574201-48d2ffe2e4c5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      ],
+      "reservation": [
+        {
+          "id": 1,
+          "image": "https://images.unsplash.com/photo-1621891334481-5c14b369d9d7?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "title": "Wonderful Room",
+          "type": "客房",
+          "bed": "1 張特大雙人床",
+          "size": 43,
+          "service": [
+            "免費無線上網免費自助停車",
+            "可容納 3 人 (依實際入住人數計費)"
+          ],
+          "price": 10000
+        },
+        {
+          "id": 2,
+          "image": "https://images.unsplash.com/photo-1621891334481-5c14b369d9d7?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "title": "Wonderful Room",
+          "type": "客房",
+          "bed": "1 張特大雙人床",
+          "size": 43,
+          "service": [
+            "免費無線上網免費自助停車",
+            "可容納 3 人 (依實際入住人數計費)"
+          ],
+          "price": 6500
+        },
+        {
+          "id": 3,
+          "image": "https://images.unsplash.com/photo-1621891334481-5c14b369d9d7?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "title": "Wonderful Room",
+          "type": "客房",
+          "bed": "1 張特大雙人床",
+          "size": 43,
+          "service": [
+            "免費無線上網免費自助停車",
+            "可容納 3 人 (依實際入住人數計費)"
+          ],
+          "price": 15000
+        }
+      ]
     },
     {
       "id": 3,
       "theme": "台中市",
-      "img": "https://images.unsplash.com/photo-1657724738971-0caa65a15661?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      "title": "台中裕元花園酒店",
+      "desc": "位於台中市西屯區，毗鄰台中大遠百，提供現代化設施和豪華住宿，擁有高樓層美景，是商務與旅遊的絕佳選擇。",
+      "price": 7200,
+      "score": 4.6,
+      "equipments": [
+        {
+          "label": "健身房",
+          "value": "gym"
+        },
+        {
+          "label": "游泳池",
+          "value": "pool"
+        },
+        {
+          "label": "餐廳",
+          "value": "restaurant"
+        },
+        {
+          "label": "水療中心",
+          "value": "spa"
+        },
+        {
+          "label": "免費 Wi-Fi",
+          "value": "wifi"
+        },
+        {
+          "label": "停車場",
+          "value": "parking"
+        },
+        {
+          "label": "客房服務",
+          "value": "room_service"
+        },
+        {
+          "label": "機場接駁",
+          "value": "airport_shuttle"
+        }
+      ],
+      "gym": "健身房",
+      "pool": "游泳池",
+      "restaurant": "餐廳",
+      "spa": "水療中心",
+      "wifi": "免費 Wi-Fi",
+      "parking": "停車場",
+      "room_service": "客房服務",
+      "bar": "酒吧",
+      "conference_room": "會議室",
+      "airport_shuttle": "機場接駁",
+      "img": [
+        "https://images.unsplash.com/photo-1657724738971-0caa65a15661?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+
+        "https://images.unsplash.com/photo-1549638441-b787d2e11f14?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1453063574201-48d2ffe2e4c5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1453063574201-48d2ffe2e4c5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1453063574201-48d2ffe2e4c5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      ],
+      "reservation": [
+        {
+          "id": 1,
+          "image": "https://images.unsplash.com/photo-1621891334481-5c14b369d9d7?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "title": "Wonderful Room",
+          "type": "客房",
+          "bed": "1 張特大雙人床",
+          "size": 43,
+          "service": [
+            "免費無線上網免費自助停車",
+            "可容納 3 人 (依實際入住人數計費)"
+          ],
+          "price": 10000
+        },
+        {
+          "id": 2,
+          "image": "https://images.unsplash.com/photo-1621891334481-5c14b369d9d7?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "title": "Wonderful Room",
+          "type": "客房",
+          "bed": "1 張特大雙人床",
+          "size": 43,
+          "service": [
+            "免費無線上網免費自助停車",
+            "可容納 3 人 (依實際入住人數計費)"
+          ],
+          "price": 6500
+        },
+        {
+          "id": 3,
+          "image": "https://images.unsplash.com/photo-1621891334481-5c14b369d9d7?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "title": "Wonderful Room",
+          "type": "客房",
+          "bed": "1 張特大雙人床",
+          "size": 43,
+          "service": [
+            "免費無線上網免費自助停車",
+            "可容納 3 人 (依實際入住人數計費)"
+          ],
+          "price": 15000
+        }
+      ]
     },
     {
       "id": 4,
       "theme": "南投縣",
-      "img": "https://plus.unsplash.com/premium_photo-1661962094872-c52ebe1d3666?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      "title": "南投日月潭晶園酒店",
+      "desc": "位於南投縣日月潭景區，酒店提供寧靜的湖畔環境，設有觀景房和多種娛樂設施，是遠離城市喧囂的理想選擇。",
+      "price": 9000,
+      "score": 4.8,
+      "equipments": [
+        {
+          "label": "健身房",
+          "value": "gym"
+        },
+        {
+          "label": "游泳池",
+          "value": "pool"
+        },
+        {
+          "label": "餐廳",
+          "value": "restaurant"
+        },
+        {
+          "label": "水療中心",
+          "value": "spa"
+        },
+        {
+          "label": "免費 Wi-Fi",
+          "value": "wifi"
+        },
+        {
+          "label": "停車場",
+          "value": "parking"
+        },
+        {
+          "label": "客房服務",
+          "value": "room_service"
+        },
+        {
+          "label": "機場接駁",
+          "value": "airport_shuttle"
+        }
+      ],
+      "gym": "健身房",
+      "pool": "游泳池",
+      "restaurant": "餐廳",
+      "spa": "水療中心",
+      "wifi": "免費 Wi-Fi",
+      "parking": "停車場",
+      "room_service": "客房服務",
+      "bar": "酒吧",
+      "conference_room": "會議室",
+      "airport_shuttle": "機場接駁",
+      "img": [
+        "https://plus.unsplash.com/premium_photo-1661962094872-c52ebe1d3666?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+
+        "https://images.unsplash.com/photo-1549638441-b787d2e11f14?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1453063574201-48d2ffe2e4c5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1453063574201-48d2ffe2e4c5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1453063574201-48d2ffe2e4c5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      ],
+      "reservation": [
+        {
+          "id": 1,
+          "image": "https://images.unsplash.com/photo-1621891334481-5c14b369d9d7?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "title": "Wonderful Room",
+          "type": "客房",
+          "bed": "1 張特大雙人床",
+          "size": 43,
+          "service": [
+            "免費無線上網免費自助停車",
+            "可容納 3 人 (依實際入住人數計費)"
+          ],
+          "price": 10000
+        },
+        {
+          "id": 2,
+          "image": "https://images.unsplash.com/photo-1621891334481-5c14b369d9d7?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "title": "Wonderful Room",
+          "type": "客房",
+          "bed": "1 張特大雙人床",
+          "size": 43,
+          "service": [
+            "免費無線上網免費自助停車",
+            "可容納 3 人 (依實際入住人數計費)"
+          ],
+          "price": 6500
+        },
+        {
+          "id": 3,
+          "image": "https://images.unsplash.com/photo-1621891334481-5c14b369d9d7?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "title": "Wonderful Room",
+          "type": "客房",
+          "bed": "1 張特大雙人床",
+          "size": 43,
+          "service": [
+            "免費無線上網免費自助停車",
+            "可容納 3 人 (依實際入住人數計費)"
+          ],
+          "price": 15000
+        }
+      ]
     },
     {
       "id": 5,
       "theme": "台南市",
-      "img": "https://images.unsplash.com/photo-1549455905-7692efd12860?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      "title": "台南晶英酒店",
+      "desc": "位於台南市中心，緊鄰赤崁樓和林百貨等知名景點，酒店提供現代化住宿和精緻美食，適合探索台南文化的旅客。",
+      "price": 7500,
+      "score": 4.7,
+      "equipments": [
+        {
+          "label": "健身房",
+          "value": "gym"
+        },
+        {
+          "label": "游泳池",
+          "value": "pool"
+        },
+        {
+          "label": "餐廳",
+          "value": "restaurant"
+        },
+        {
+          "label": "水療中心",
+          "value": "spa"
+        },
+        {
+          "label": "免費 Wi-Fi",
+          "value": "wifi"
+        },
+        {
+          "label": "停車場",
+          "value": "parking"
+        },
+        {
+          "label": "客房服務",
+          "value": "room_service"
+        },
+        {
+          "label": "機場接駁",
+          "value": "airport_shuttle"
+        }
+      ],
+      "gym": "健身房",
+      "pool": "游泳池",
+      "restaurant": "餐廳",
+      "spa": "水療中心",
+      "wifi": "免費 Wi-Fi",
+      "parking": "停車場",
+      "room_service": "客房服務",
+      "bar": "酒吧",
+      "conference_room": "會議室",
+      "airport_shuttle": "機場接駁",
+      "img": [
+        "https://images.unsplash.com/photo-1549455905-7692efd12860?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+
+        "https://images.unsplash.com/photo-1549638441-b787d2e11f14?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1453063574201-48d2ffe2e4c5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1453063574201-48d2ffe2e4c5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1453063574201-48d2ffe2e4c5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      ],
+      "reservation": [
+        {
+          "id": 1,
+          "image": "https://images.unsplash.com/photo-1621891334481-5c14b369d9d7?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "title": "Wonderful Room",
+          "type": "客房",
+          "bed": "1 張特大雙人床",
+          "size": 43,
+          "service": [
+            "免費無線上網免費自助停車",
+            "可容納 3 人 (依實際入住人數計費)"
+          ],
+          "price": 10000
+        },
+        {
+          "id": 2,
+          "image": "https://images.unsplash.com/photo-1621891334481-5c14b369d9d7?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "title": "Wonderful Room",
+          "type": "客房",
+          "bed": "1 張特大雙人床",
+          "size": 43,
+          "service": [
+            "免費無線上網免費自助停車",
+            "可容納 3 人 (依實際入住人數計費)"
+          ],
+          "price": 6500
+        },
+        {
+          "id": 3,
+          "image": "https://images.unsplash.com/photo-1621891334481-5c14b369d9d7?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "title": "Wonderful Room",
+          "type": "客房",
+          "bed": "1 張特大雙人床",
+          "size": 43,
+          "service": [
+            "免費無線上網免費自助停車",
+            "可容納 3 人 (依實際入住人數計費)"
+          ],
+          "price": 15000
+        }
+      ]
     },
     {
       "id": 6,
       "theme": "高雄市",
-      "img": "https://images.unsplash.com/photo-1723133799460-b3c130b05367?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      "title": "高雄漢來大飯店",
+      "desc": "位於高雄市前金區，靠近愛河和高雄捷運美麗島站，酒店設有豪華設施和海景房，適合家庭旅遊及商務旅客。",
+      "price": 6800,
+      "score": 4.6,
+      "equipments": [
+        {
+          "label": "健身房",
+          "value": "gym"
+        },
+        {
+          "label": "游泳池",
+          "value": "pool"
+        },
+        {
+          "label": "餐廳",
+          "value": "restaurant"
+        },
+        {
+          "label": "水療中心",
+          "value": "spa"
+        },
+        {
+          "label": "免費 Wi-Fi",
+          "value": "wifi"
+        },
+        {
+          "label": "停車場",
+          "value": "parking"
+        },
+        {
+          "label": "客房服務",
+          "value": "room_service"
+        },
+        {
+          "label": "機場接駁",
+          "value": "airport_shuttle"
+        }
+      ],
+      "gym": "健身房",
+      "pool": "游泳池",
+      "restaurant": "餐廳",
+      "spa": "水療中心",
+      "wifi": "免費 Wi-Fi",
+      "parking": "停車場",
+      "room_service": "客房服務",
+      "bar": "酒吧",
+      "conference_room": "會議室",
+      "airport_shuttle": "機場接駁",
+      "img": [
+        "https://images.unsplash.com/photo-1723133799460-b3c130b05367?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+
+        "https://images.unsplash.com/photo-1549638441-b787d2e11f14?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1453063574201-48d2ffe2e4c5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1453063574201-48d2ffe2e4c5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1453063574201-48d2ffe2e4c5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      ],
+      "reservation": [
+        {
+          "id": 1,
+          "image": "https://images.unsplash.com/photo-1621891334481-5c14b369d9d7?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "title": "Wonderful Room",
+          "type": "客房",
+          "bed": "1 張特大雙人床",
+          "size": 43,
+          "service": [
+            "免費無線上網免費自助停車",
+            "可容納 3 人 (依實際入住人數計費)"
+          ],
+          "price": 10000
+        },
+        {
+          "id": 2,
+          "image": "https://images.unsplash.com/photo-1621891334481-5c14b369d9d7?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "title": "Wonderful Room",
+          "type": "客房",
+          "bed": "1 張特大雙人床",
+          "size": 43,
+          "service": [
+            "免費無線上網免費自助停車",
+            "可容納 3 人 (依實際入住人數計費)"
+          ],
+          "price": 6500
+        },
+        {
+          "id": 3,
+          "image": "https://images.unsplash.com/photo-1621891334481-5c14b369d9d7?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "title": "Wonderful Room",
+          "type": "客房",
+          "bed": "1 張特大雙人床",
+          "size": 43,
+          "service": [
+            "免費無線上網免費自助停車",
+            "可容納 3 人 (依實際入住人數計費)"
+          ],
+          "price": 15000
+        }
+      ]
     },
     {
       "id": 7,
       "theme": "嘉義縣",
-      "img": "https://plus.unsplash.com/premium_photo-1673698463059-c022fb3a32ab?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      "title": "嘉義縣耐斯王子大飯店",
+      "desc": "位於嘉義縣民雄鄉，緊鄰故宮南院和阿里山入口，提供舒適的住宿和便捷的交通，是探索嘉義的理想住宿地點。",
+      "price": 5200,
+      "score": 4.4,
+      "equipments": [
+        {
+          "label": "健身房",
+          "value": "gym"
+        },
+        {
+          "label": "游泳池",
+          "value": "pool"
+        },
+        {
+          "label": "餐廳",
+          "value": "restaurant"
+        },
+        {
+          "label": "水療中心",
+          "value": "spa"
+        },
+        {
+          "label": "免費 Wi-Fi",
+          "value": "wifi"
+        },
+        {
+          "label": "停車場",
+          "value": "parking"
+        },
+        {
+          "label": "客房服務",
+          "value": "room_service"
+        },
+        {
+          "label": "機場接駁",
+          "value": "airport_shuttle"
+        }
+      ],
+      "gym": "健身房",
+      "pool": "游泳池",
+      "restaurant": "餐廳",
+      "spa": "水療中心",
+      "wifi": "免費 Wi-Fi",
+      "parking": "停車場",
+      "room_service": "客房服務",
+      "bar": "酒吧",
+      "conference_room": "會議室",
+      "airport_shuttle": "機場接駁",
+      "img": [
+        "https://plus.unsplash.com/premium_photo-1673698463059-c022fb3a32ab?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+
+        "https://images.unsplash.com/photo-1549638441-b787d2e11f14?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1453063574201-48d2ffe2e4c5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1453063574201-48d2ffe2e4c5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1453063574201-48d2ffe2e4c5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      ],
+      "reservation": [
+        {
+          "id": 1,
+          "image": "https://images.unsplash.com/photo-1621891334481-5c14b369d9d7?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "title": "Wonderful Room",
+          "type": "客房",
+          "bed": "1 張特大雙人床",
+          "size": 43,
+          "service": [
+            "免費無線上網免費自助停車",
+            "可容納 3 人 (依實際入住人數計費)"
+          ],
+          "price": 10000
+        },
+        {
+          "id": 2,
+          "image": "https://images.unsplash.com/photo-1621891334481-5c14b369d9d7?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "title": "Wonderful Room",
+          "type": "客房",
+          "bed": "1 張特大雙人床",
+          "size": 43,
+          "service": [
+            "免費無線上網免費自助停車",
+            "可容納 3 人 (依實際入住人數計費)"
+          ],
+          "price": 6500
+        },
+        {
+          "id": 3,
+          "image": "https://images.unsplash.com/photo-1621891334481-5c14b369d9d7?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "title": "Wonderful Room",
+          "type": "客房",
+          "bed": "1 張特大雙人床",
+          "size": 43,
+          "service": [
+            "免費無線上網免費自助停車",
+            "可容納 3 人 (依實際入住人數計費)"
+          ],
+          "price": 15000
+        }
+      ]
     },
     {
       "id": 8,
       "theme": "嘉義市",
-      "img": "https://images.unsplash.com/photo-1709130877146-369a6833b8da?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      "title": "嘉義耐斯大飯店",
+      "desc": "位於嘉義市中心，鄰近嘉義文化園區和夜市，酒店提供現代設施與溫馨服務，適合商務和家庭旅遊。",
+      "price": 4800,
+      "score": 4.3,
+      "equipments": [
+        {
+          "label": "健身房",
+          "value": "gym"
+        },
+        {
+          "label": "游泳池",
+          "value": "pool"
+        },
+        {
+          "label": "餐廳",
+          "value": "restaurant"
+        },
+        {
+          "label": "水療中心",
+          "value": "spa"
+        },
+        {
+          "label": "免費 Wi-Fi",
+          "value": "wifi"
+        },
+        {
+          "label": "停車場",
+          "value": "parking"
+        },
+        {
+          "label": "客房服務",
+          "value": "room_service"
+        },
+        {
+          "label": "機場接駁",
+          "value": "airport_shuttle"
+        }
+      ],
+      "gym": "健身房",
+      "pool": "游泳池",
+      "restaurant": "餐廳",
+      "spa": "水療中心",
+      "wifi": "免費 Wi-Fi",
+      "parking": "停車場",
+      "room_service": "客房服務",
+      "bar": "酒吧",
+      "conference_room": "會議室",
+      "airport_shuttle": "機場接駁",
+      "img": [
+        "https://images.unsplash.com/photo-1709130877146-369a6833b8da?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+
+        "https://images.unsplash.com/photo-1549638441-b787d2e11f14?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1453063574201-48d2ffe2e4c5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1453063574201-48d2ffe2e4c5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1453063574201-48d2ffe2e4c5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      ],
+      "reservation": [
+        {
+          "id": 1,
+          "image": "https://images.unsplash.com/photo-1621891334481-5c14b369d9d7?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "title": "Wonderful Room",
+          "type": "客房",
+          "bed": "1 張特大雙人床",
+          "size": 43,
+          "service": [
+            "免費無線上網免費自助停車",
+            "可容納 3 人 (依實際入住人數計費)"
+          ],
+          "price": 10000
+        },
+        {
+          "id": 2,
+          "image": "https://images.unsplash.com/photo-1621891334481-5c14b369d9d7?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "title": "Wonderful Room",
+          "type": "客房",
+          "bed": "1 張特大雙人床",
+          "size": 43,
+          "service": [
+            "免費無線上網免費自助停車",
+            "可容納 3 人 (依實際入住人數計費)"
+          ],
+          "price": 6500
+        },
+        {
+          "id": 3,
+          "image": "https://images.unsplash.com/photo-1621891334481-5c14b369d9d7?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "title": "Wonderful Room",
+          "type": "客房",
+          "bed": "1 張特大雙人床",
+          "size": 43,
+          "service": [
+            "免費無線上網免費自助停車",
+            "可容納 3 人 (依實際入住人數計費)"
+          ],
+          "price": 15000
+        }
+      ]
     },
     {
       "id": 9,
       "theme": "花蓮縣",
-      "img": "https://images.unsplash.com/photo-1696663233350-2bfcb977e0a4?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      "title": "花蓮遠雄悅來大飯店",
+      "desc": "位於花蓮縣壽豐鄉，面對太平洋，提供壯麗海景與多樣娛樂設施，是渡假放鬆的最佳選擇。",
+      "price": 8300,
+      "score": 4.7,
+      "equipments": [
+        {
+          "label": "健身房",
+          "value": "gym"
+        },
+        {
+          "label": "游泳池",
+          "value": "pool"
+        },
+        {
+          "label": "餐廳",
+          "value": "restaurant"
+        },
+        {
+          "label": "水療中心",
+          "value": "spa"
+        },
+        {
+          "label": "免費 Wi-Fi",
+          "value": "wifi"
+        },
+        {
+          "label": "停車場",
+          "value": "parking"
+        },
+        {
+          "label": "客房服務",
+          "value": "room_service"
+        },
+        {
+          "label": "機場接駁",
+          "value": "airport_shuttle"
+        }
+      ],
+      "gym": "健身房",
+      "pool": "游泳池",
+      "restaurant": "餐廳",
+      "spa": "水療中心",
+      "wifi": "免費 Wi-Fi",
+      "parking": "停車場",
+      "room_service": "客房服務",
+      "bar": "酒吧",
+      "conference_room": "會議室",
+      "airport_shuttle": "機場接駁",
+      "img": [
+        "https://images.unsplash.com/photo-1696663233350-2bfcb977e0a4?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+
+        "https://images.unsplash.com/photo-1549638441-b787d2e11f14?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1453063574201-48d2ffe2e4c5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1453063574201-48d2ffe2e4c5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1453063574201-48d2ffe2e4c5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      ],
+      "reservation": [
+        {
+          "id": 1,
+          "image": "https://images.unsplash.com/photo-1621891334481-5c14b369d9d7?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "title": "Wonderful Room",
+          "type": "客房",
+          "bed": "1 張特大雙人床",
+          "size": 43,
+          "service": [
+            "免費無線上網免費自助停車",
+            "可容納 3 人 (依實際入住人數計費)"
+          ],
+          "price": 10000
+        },
+        {
+          "id": 2,
+          "image": "https://images.unsplash.com/photo-1621891334481-5c14b369d9d7?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "title": "Wonderful Room",
+          "type": "客房",
+          "bed": "1 張特大雙人床",
+          "size": 43,
+          "service": [
+            "免費無線上網免費自助停車",
+            "可容納 3 人 (依實際入住人數計費)"
+          ],
+          "price": 6500
+        },
+        {
+          "id": 3,
+          "image": "https://images.unsplash.com/photo-1621891334481-5c14b369d9d7?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "title": "Wonderful Room",
+          "type": "客房",
+          "bed": "1 張特大雙人床",
+          "size": 43,
+          "service": [
+            "免費無線上網免費自助停車",
+            "可容納 3 人 (依實際入住人數計費)"
+          ],
+          "price": 15000
+        }
+      ]
     },
     {
       "id": 10,
       "theme": "台東縣",
-      "img": "https://images.unsplash.com/photo-1629977481162-ddef81f4d40d?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      "title": "台東娜路彎大酒店",
+      "desc": "位於台東市中心，靠近森林公園和鐵花村，提供舒適的客房和本地化特色服務，適合家庭旅遊。",
+      "price": 6000,
+      "score": 4.5,
+      "equipments": [
+        {
+          "label": "健身房",
+          "value": "gym"
+        },
+        {
+          "label": "游泳池",
+          "value": "pool"
+        },
+        {
+          "label": "餐廳",
+          "value": "restaurant"
+        },
+        {
+          "label": "水療中心",
+          "value": "spa"
+        },
+        {
+          "label": "免費 Wi-Fi",
+          "value": "wifi"
+        },
+        {
+          "label": "停車場",
+          "value": "parking"
+        },
+        {
+          "label": "客房服務",
+          "value": "room_service"
+        },
+        {
+          "label": "機場接駁",
+          "value": "airport_shuttle"
+        }
+      ],
+      "gym": "健身房",
+      "pool": "游泳池",
+      "restaurant": "餐廳",
+      "spa": "水療中心",
+      "wifi": "免費 Wi-Fi",
+      "parking": "停車場",
+      "room_service": "客房服務",
+      "bar": "酒吧",
+      "conference_room": "會議室",
+      "airport_shuttle": "機場接駁",
+      "img": [
+        "https://images.unsplash.com/photo-1629977481162-ddef81f4d40d?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+
+        "https://images.unsplash.com/photo-1549638441-b787d2e11f14?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1453063574201-48d2ffe2e4c5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1453063574201-48d2ffe2e4c5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1453063574201-48d2ffe2e4c5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      ],
+      "reservation": [
+        {
+          "id": 1,
+          "image": "https://images.unsplash.com/photo-1621891334481-5c14b369d9d7?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "title": "Wonderful Room",
+          "type": "客房",
+          "bed": "1 張特大雙人床",
+          "size": 43,
+          "service": [
+            "免費無線上網免費自助停車",
+            "可容納 3 人 (依實際入住人數計費)"
+          ],
+          "price": 10000
+        },
+        {
+          "id": 2,
+          "image": "https://images.unsplash.com/photo-1621891334481-5c14b369d9d7?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "title": "Wonderful Room",
+          "type": "客房",
+          "bed": "1 張特大雙人床",
+          "size": 43,
+          "service": [
+            "免費無線上網免費自助停車",
+            "可容納 3 人 (依實際入住人數計費)"
+          ],
+          "price": 6500
+        },
+        {
+          "id": 3,
+          "image": "https://images.unsplash.com/photo-1621891334481-5c14b369d9d7?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "title": "Wonderful Room",
+          "type": "客房",
+          "bed": "1 張特大雙人床",
+          "size": 43,
+          "service": [
+            "免費無線上網免費自助停車",
+            "可容納 3 人 (依實際入住人數計費)"
+          ],
+          "price": 15000
+        }
+      ]
     },
     {
       "id": 11,
       "theme": "宜蘭縣",
-      "img": "https://images.unsplash.com/photo-1702862560312-c2bc1b176511?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      "title": "宜蘭礁溪老爺大酒店",
+      "desc": "位於宜蘭縣礁溪鄉，著名的溫泉酒店，提供高級泡湯設施和精緻料理，是放鬆身心的最佳選擇。",
+      "price": 8500,
+      "score": 4.8,
+      "equipments": [
+        {
+          "label": "健身房",
+          "value": "gym"
+        },
+        {
+          "label": "游泳池",
+          "value": "pool"
+        },
+        {
+          "label": "餐廳",
+          "value": "restaurant"
+        },
+        {
+          "label": "水療中心",
+          "value": "spa"
+        },
+        {
+          "label": "免費 Wi-Fi",
+          "value": "wifi"
+        },
+        {
+          "label": "停車場",
+          "value": "parking"
+        },
+        {
+          "label": "客房服務",
+          "value": "room_service"
+        },
+        {
+          "label": "機場接駁",
+          "value": "airport_shuttle"
+        }
+      ],
+      "gym": "健身房",
+      "pool": "游泳池",
+      "restaurant": "餐廳",
+      "spa": "水療中心",
+      "wifi": "免費 Wi-Fi",
+      "parking": "停車場",
+      "room_service": "客房服務",
+      "bar": "酒吧",
+      "conference_room": "會議室",
+      "airport_shuttle": "機場接駁",
+      "img": [
+        "https://images.unsplash.com/photo-1702862560312-c2bc1b176511?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+
+        "https://images.unsplash.com/photo-1549638441-b787d2e11f14?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1453063574201-48d2ffe2e4c5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1453063574201-48d2ffe2e4c5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1453063574201-48d2ffe2e4c5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      ],
+      "reservation": [
+        {
+          "id": 1,
+          "image": "https://images.unsplash.com/photo-1621891334481-5c14b369d9d7?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "title": "Wonderful Room",
+          "type": "客房",
+          "bed": "1 張特大雙人床",
+          "size": 43,
+          "service": [
+            "免費無線上網免費自助停車",
+            "可容納 3 人 (依實際入住人數計費)"
+          ],
+          "price": 10000
+        },
+        {
+          "id": 2,
+          "image": "https://images.unsplash.com/photo-1621891334481-5c14b369d9d7?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "title": "Wonderful Room",
+          "type": "客房",
+          "bed": "1 張特大雙人床",
+          "size": 43,
+          "service": [
+            "免費無線上網免費自助停車",
+            "可容納 3 人 (依實際入住人數計費)"
+          ],
+          "price": 6500
+        },
+        {
+          "id": 3,
+          "image": "https://images.unsplash.com/photo-1621891334481-5c14b369d9d7?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "title": "Wonderful Room",
+          "type": "客房",
+          "bed": "1 張特大雙人床",
+          "size": 43,
+          "service": [
+            "免費無線上網免費自助停車",
+            "可容納 3 人 (依實際入住人數計費)"
+          ],
+          "price": 15000
+        }
+      ]
     },
     {
       "id": 12,
       "theme": "基隆市",
-      "img": "https://images.unsplash.com/photo-1614686253298-fa90afe7a451?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      "title": "基隆長榮桂冠酒店",
+      "desc": "位於基隆市中心，面對基隆港，酒店提供絕佳的海景和豪華設施，適合商務與休閒旅客。",
+      "price": 7000,
+      "score": 4.6,
+      "equipments": [
+        {
+          "label": "健身房",
+          "value": "gym"
+        },
+        {
+          "label": "游泳池",
+          "value": "pool"
+        },
+        {
+          "label": "餐廳",
+          "value": "restaurant"
+        },
+        {
+          "label": "水療中心",
+          "value": "spa"
+        },
+        {
+          "label": "免費 Wi-Fi",
+          "value": "wifi"
+        },
+        {
+          "label": "停車場",
+          "value": "parking"
+        },
+        {
+          "label": "客房服務",
+          "value": "room_service"
+        },
+        {
+          "label": "機場接駁",
+          "value": "airport_shuttle"
+        }
+      ],
+      "gym": "健身房",
+      "pool": "游泳池",
+      "restaurant": "餐廳",
+      "spa": "水療中心",
+      "wifi": "免費 Wi-Fi",
+      "parking": "停車場",
+      "room_service": "客房服務",
+      "bar": "酒吧",
+      "conference_room": "會議室",
+      "airport_shuttle": "機場接駁",
+      "img": [
+        "https://images.unsplash.com/photo-1614686253298-fa90afe7a451?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+
+        "https://images.unsplash.com/photo-1549638441-b787d2e11f14?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1453063574201-48d2ffe2e4c5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1453063574201-48d2ffe2e4c5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1453063574201-48d2ffe2e4c5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      ],
+      "reservation": [
+        {
+          "id": 1,
+          "image": "https://images.unsplash.com/photo-1621891334481-5c14b369d9d7?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "title": "Wonderful Room",
+          "type": "客房",
+          "bed": "1 張特大雙人床",
+          "size": 43,
+          "service": [
+            "免費無線上網免費自助停車",
+            "可容納 3 人 (依實際入住人數計費)"
+          ],
+          "price": 10000
+        },
+        {
+          "id": 2,
+          "image": "https://images.unsplash.com/photo-1621891334481-5c14b369d9d7?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "title": "Wonderful Room",
+          "type": "客房",
+          "bed": "1 張特大雙人床",
+          "size": 43,
+          "service": [
+            "免費無線上網免費自助停車",
+            "可容納 3 人 (依實際入住人數計費)"
+          ],
+          "price": 6500
+        },
+        {
+          "id": 3,
+          "image": "https://images.unsplash.com/photo-1621891334481-5c14b369d9d7?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "title": "Wonderful Room",
+          "type": "客房",
+          "bed": "1 張特大雙人床",
+          "size": 43,
+          "service": [
+            "免費無線上網免費自助停車",
+            "可容納 3 人 (依實際入住人數計費)"
+          ],
+          "price": 15000
+        }
+      ]
     }
   ],
   "hotels": [

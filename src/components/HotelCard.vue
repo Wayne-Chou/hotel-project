@@ -1,7 +1,7 @@
 <script setup>
-import { defineProps } from "vue";
+import { defineProps, defineEmits, computed } from "vue";
 
-defineProps({
+const props = defineProps({
   title: {
     type: String,
   },
@@ -17,16 +17,33 @@ defineProps({
   image: {
     type: Number,
   },
+  isFavorite: {
+    type: Boolean,
+    default: false
+  }
 });
+
+
+
+const emit = defineEmits(['addToFavorite', 'changePage'])
+
+const addToFavorite = () => {
+  emit('addToFavorite')
+}
+const changePage = () => {
+  emit('changePage')
+}
+const isFavorite = computed(() => props.isFavorite)
 </script>
 
 <template>
   <div class="hotel-item">
+    <div class="transparent-mask" @click="changePage"></div>
     <div class="hotel-img">
-      <img :src="image" alt="" />
-      <i class="fa-regular fa-heart"></i>
+      <img :src="image" alt="" @click="changePage" />
+      <i :class="[`${isFavorite ? 'fa-solid' : 'fa-regular'}`]" class="fa-heart" @click="addToFavorite"></i>
     </div>
-    <div class="hotel-data">
+    <div class="hotel-data" @click="changePage">
       <div class="hotel-title">{{ title }}</div>
       <div class="hotel-des">
         {{ desc }}
@@ -45,10 +62,18 @@ defineProps({
   </div>
 </template>
 <style scoped>
+.transparent-mask {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+}
 .hotel-item {
+  overflow: hidden;
   display: flex;
   border: 1px solid;
   border-radius: 15px;
+  position: relative;
 }
 
 .hotel-item .hotel-img {

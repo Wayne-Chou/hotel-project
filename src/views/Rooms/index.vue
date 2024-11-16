@@ -31,6 +31,8 @@ const filterCity = (city) => {
   }
   filterData.value = themeData.value.filter((item) => item.city === city);
 };
+const favoriteHotels = computed(() => houseStore.favoriteHotels)
+
 </script>
 
 <template>
@@ -51,7 +53,9 @@ const filterCity = (city) => {
         :image="item.img[1]"
         :score="item.score"
         :price="item.price"
-        @click="router.push(`/roomDetail/${item.id}?search=${search}`)"
+        :isFavorite="favoriteHotels[search]?.some(hotel => hotel.id === item.id)"
+        @add-to-favorite="houseStore.setFavoriteHotels(item, search)"
+        @change-page="router.push(`/roomDetail/${item.id}?search=${search}`)"
       />
     </div>
     <div class="map">

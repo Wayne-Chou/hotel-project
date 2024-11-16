@@ -3,6 +3,7 @@ import { useRoute, useRouter } from "vue-router";
 import { useHouseStore } from "@/store/house";
 import { computed, ref } from "vue";
 import ReservationCard from "@/components/ReservationCard.vue";
+import { iconName } from "@/utils/iconName.js";
 
 const route = useRoute();
 const router = useRouter();
@@ -18,6 +19,7 @@ const database = computed(() =>
 const room = computed(() => {
   return database.value.find((item) => item.id === routeId.value);
 });
+console.log(iconName);
 </script>
 <template>
   <div class="RoomDetail-img-box">
@@ -64,15 +66,10 @@ const room = computed(() => {
   </div>
   <div class="Hotel-subtitle">熱門設施服務</div>
   <div class="hotel-amenities">
-    <div class="amenity">{{ room.gym }}</div>
-    <div class="amenity">{{ room.pool }}</div>
-    <div class="amenity">{{ room.restaurant }}</div>
-    <div class="amenity">{{ room.wifi }}</div>
-    <div class="amenity">{{ room.parking }}</div>
-    <div class="amenity">{{ room.room_service }}</div>
-    <div class="amenity">{{ room.bar }}</div>
-    <div class="amenity">{{ room.conference_room }}</div>
-    <div class="amenity">{{ room.airport_shuttle }}</div>
+    <div v-for="item in room.equipments" :key="item.value" class="amenity">
+      <i :class="iconName[item.value]"></i>
+      {{ item.label }}
+    </div>
   </div>
 
   <div class="Room-items">
