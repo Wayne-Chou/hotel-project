@@ -1,5 +1,41 @@
 <script setup>
 import { useRoute, useRouter } from "vue-router";
+import { computed, ref, reactive } from "vue";
+
+import { useHouseStore } from "@/store/house";
+
+const route = useRoute();
+const router = useRouter();
+const houseStore = useHouseStore();
+const routeId = ref(Number(route.params.id));
+const search = ref(route.query.search);
+const id = ref(Number(route.query.id));
+
+const database = computed(() =>
+  search.value === "favorite" ? houseStore.favorite : houseStore.location
+);
+
+const reservationRoom = computed(() => {
+  const house = database.value.find((item) => item.id === id.value)
+  return house.reservation.find(item => item.id === routeId.value);
+});
+
+const formData = reactive({
+  userInfo: {
+    name: '',
+    email: '',
+    phone: ''
+  },
+  paymentInfo: {
+    cardNumber: '',
+    cardMonth: '',
+    cardYear: '',
+    cvv: ''
+  }
+})
+const submit = () => {
+  console.log(formData);
+}
 </script>
 
 <template>
@@ -7,12 +43,13 @@ import { useRoute, useRouter } from "vue-router";
 
   <section id="guest-info">
     <h2>基本資料</h2>
-    <form action="/submit-reservation" method="POST">
+    <form>
       <fieldset>
         <legend>您的資訊</legend>
         <label for="guest-name">姓名：</label>
         <input
           type="text"
+          v-model="formData.userInfo.name"
           id="guest-name"
           name="guest_name"
           placeholder="請輸入您的姓名"
@@ -22,6 +59,7 @@ import { useRoute, useRouter } from "vue-router";
         <label for="guest-email">電子郵件：</label>
         <input
           type="email"
+          v-model="formData.userInfo.email"
           id="guest-email"
           name="guest_email"
           placeholder="請輸入您的電子郵件"
@@ -31,6 +69,7 @@ import { useRoute, useRouter } from "vue-router";
         <label for="guest-phone">聯絡電話：</label>
         <input
           type="tel"
+          v-model="formData.userInfo.phone"
           id="guest-phone"
           name="guest_phone"
           placeholder="請輸入您的聯絡電話"
@@ -45,19 +84,16 @@ import { useRoute, useRouter } from "vue-router";
     <h2>房型內容</h2>
     <article>
       <h3>房型</h3>
-      <p>豪華套房</p>
+      <p>{{ reservationRoom.type }}</p>
     </article>
     <article>
       <h3>每晚價格</h3>
-      <p>新台幣 6000 元</p>
+      <p>新台幣 {{ reservationRoom.price }} 元</p>
     </article>
     <article>
       <h3>房間設施</h3>
       <ul>
-        <li>加大雙人床</li>
-        <li>免費 Wi-Fi</li>
-        <li>海景陽台</li>
-        <li>附早餐</li>
+        <li v-for="item in reservationRoom.service" :key="item">{{ item }}</li>
       </ul>
     </article>
   </section>
@@ -65,12 +101,13 @@ import { useRoute, useRouter } from "vue-router";
   <!-- 信用卡卡號填寫 -->
   <section id="payment-info">
     <h2>付款資訊</h2>
-    <form action="/submit-payment" method="POST">
+    <form @submit.prevent="submit">
       <fieldset>
         <legend>信用卡資訊</legend>
         <label for="credit-card">信用卡卡號：</label>
         <input
           type="text"
+          v-model="formData.paymentInfo.cardNumber"
           id="credit-card"
           name="credit_card"
           placeholder="請輸入信用卡卡號"
@@ -81,6 +118,7 @@ import { useRoute, useRouter } from "vue-router";
         <label for="expiration-month">有效月份：</label>
         <input
           type="text"
+          v-model="formData.paymentInfo.cardMonth"
           id="expiration-month"
           name="expiration_month"
           placeholder="MM"
@@ -91,6 +129,7 @@ import { useRoute, useRouter } from "vue-router";
         <label for="expiration-year">有效年份：</label>
         <input
           type="text"
+          v-model="formData.paymentInfo.cardYear"
           id="expiration-year"
           name="expiration_year"
           placeholder="YYYY"
@@ -101,6 +140,7 @@ import { useRoute, useRouter } from "vue-router";
         <label for="cvv">信用卡安全碼 (CVV)：</label>
         <input
           type="text"
+          v-model="formData.paymentInfo.cvv"
           id="cvv"
           name="cvv"
           placeholder="三位數安全碼"
@@ -108,7 +148,7 @@ import { useRoute, useRouter } from "vue-router";
           required
         />
       </fieldset>
-      <button type="submit">提交預訂</button>
+      <button>提交預訂</button>
     </form>
   </section>
 </template>

@@ -25,7 +25,7 @@ const changeLanguage = () => {
       <div class="header-logo">
         <img :src="Logo" alt="" />
       </div>
-      <div class="check-box">
+      <!-- <div class="check-box">
         <div class="input-box">
           <div class="input">
             <input
@@ -44,7 +44,7 @@ const changeLanguage = () => {
             <i class="fa-solid fa-user"></i>
           </div>
         </div>
-      </div>
+      </div> -->
 
       <div class="LoginRegister">
         <div class="LoginRegister-box">

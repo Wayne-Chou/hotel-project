@@ -31,8 +31,7 @@ const filterCity = (city) => {
   }
   filterData.value = themeData.value.filter((item) => item.city === city);
 };
-const favoriteHotels = computed(() => houseStore.favoriteHotels)
-
+const favoriteHotels = computed(() => houseStore.favoriteHotels);
 </script>
 
 <template>
@@ -53,7 +52,9 @@ const favoriteHotels = computed(() => houseStore.favoriteHotels)
         :image="item.img[1]"
         :score="item.score"
         :price="item.price"
-        :isFavorite="favoriteHotels[search]?.some(hotel => hotel.id === item.id)"
+        :isFavorite="
+          favoriteHotels[search]?.some((hotel) => hotel.id === item.id)
+        "
         @add-to-favorite="houseStore.setFavoriteHotels(item, search)"
         @change-page="router.push(`/roomDetail/${item.id}?search=${search}`)"
       />
@@ -91,6 +92,9 @@ const favoriteHotels = computed(() => houseStore.favoriteHotels)
 .hotel-box .hotel-search-result {
   width: 45%;
   overflow-y: scroll;
+}
+.hotel-box .hotel-search-result .hotel-item {
+  margin-bottom: 20px;
 }
 .hotel-box .map {
   width: 55%;

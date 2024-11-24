@@ -84,6 +84,7 @@ console.log(iconName);
       :size="item.size"
       :service="item.service"
       :price="item.price"
+      @reservation="router.push(`/reservation/${item.id}?search=${search}&id=${routeId}`)"
     />
   </div>
 </template>
