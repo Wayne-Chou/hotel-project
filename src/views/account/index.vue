@@ -1,11 +1,24 @@
 <script setup>
 import { ref, reactive } from "vue";
+import { useUserStore } from '@/store/user.js'
+
 // 編輯邏輯,一開使為false點選後變true
 // 透過點選來將input的開關顯示跟隱藏
 const editMode = ref(false);
 const toggleEditMode = () => {
   editMode.value = !editMode.value;
 };
+const userStore = useUserStore()
+const profile = reactive({
+  username: userStore.userInfo.username,
+  phone: userStore.userInfo.phone,
+  email: userStore.userInfo.email,
+  address: userStore.userInfo.address
+})
+const save = () => {
+  userStore.setUserInfo(profile)
+  editMode.value = false
+}
 </script>
 
 <template>
@@ -37,8 +50,11 @@ const toggleEditMode = () => {
         <div class="section-personal-edit">
           <h2>個人資料</h2>
 
-          <button @click="toggleEditMode" class="edit-button">
-            {{ editMode ? "儲存" : "編輯" }}
+          <button v-show="editMode" @click="save" class="edit-button">
+            儲存
+          </button>
+          <button v-show="!editMode" @click="toggleEditMode" class="edit-button">
+            編輯
           </button>
         </div>
         <!-- v-if="!editMode"一開始為false不顯示
@@ -47,40 +63,40 @@ const toggleEditMode = () => {
         <div class="user-details">
           <p>
             <strong>姓名：</strong>
-            <span v-if="!editMode">{{ name }}</span>
+            <span v-if="!editMode">{{ profile.username }}</span>
             <input
               v-if="editMode"
-              v-model="name"
+              v-model="profile.username"
               class="edit-input"
               type="text"
             />
           </p>
           <p>
             <strong>電話：</strong>
-            <span v-if="!editMode">{{ phone }}</span>
+            <span v-if="!editMode">{{ profile.phone }}</span>
             <input
               v-if="editMode"
-              v-model="phone"
+              v-model="profile.phone"
               class="edit-input"
               type="text"
             />
           </p>
           <p>
             <strong>Email：</strong>
-            <span v-if="!editMode">{{ email }}</span>
+            <span v-if="!editMode">{{ profile.email }}</span>
             <input
               v-if="editMode"
-              v-model="email"
+              v-model="profile.email"
               class="edit-input"
               type="email"
             />
           </p>
           <p>
             <strong>地址：</strong>
-            <span v-if="!editMode">{{ address }}</span>
+            <span v-if="!editMode">{{ profile.address }}</span>
             <input
               v-if="editMode"
-              v-model="address"
+              v-model="profile.address"
               class="edit-input"
               type="text"
             />

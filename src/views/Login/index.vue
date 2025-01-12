@@ -1,15 +1,15 @@
 <script setup>
 import router from "@/router";
-
 import axios from "axios";
 import { useI18n } from "vue-i18n";
 import { userApi } from "@/api/module/user";
-import { reactive, ref, onMounted } from "vue";
+import { reactive, ref, onMounted, computed } from "vue";
 import { message } from "ant-design-vue";
-import { setToken, getToken } from "@/utils/localStorage";
+import { useUserStore } from '@/store/user.js'
 
 const { t } = useI18n();
-const token = ref(getToken() || "");
+const userStore = useUserStore()
+const token = computed(() => userStore.token);
 const formData = reactive({
   username: "",
   password: "",
@@ -22,10 +22,9 @@ const login = async (e) => {
     return;
   }
   try {
-    const { token } = await userApi.login(formData.username, formData.password);
-
-    // localStorage.setItem("R-TONKEN", token);
-    setToken(token);
+    const { accessToken, firstName } = await userApi.login(formData.username, formData.password);
+    userStore.setToken(accessToken);
+    userStore.setUsername(firstName)
     message.success("登入成功");
     router.push("/");
   } catch (err) {

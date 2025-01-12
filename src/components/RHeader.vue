@@ -3,12 +3,17 @@ import { useRouter } from "vue-router";
 import Logo from "@/assets/img/logo.png";
 import { useI18n } from "vue-i18n";
 import { setLanguage } from "@/utils/localStorage";
+import { useUserStore } from '@/store/user.js'
+import { computed } from "vue";
 
+const userStore = useUserStore()
+const token = computed(() => userStore.token);
+const username = computed(() => userStore.userInfo.username)
 const router = useRouter();
 const changePage = (url) => {
+  console.log(url);
   router.push(url);
 };
-
 // 翻譯
 const { t, locale } = useI18n();
 console.log(locale.value);
@@ -51,9 +56,13 @@ const changeLanguage = () => {
           <div class="language-icon" @click="changeLanguage">
             <i class="fa-solid fa-globe"></i>
           </div>
-          <div class="user-icon" @click="changePage('/login')">
+          <div v-if="!token" class="user-icon" @click="changePage('/login')">
             <i class="fa-solid fa-user"></i>
           </div>
+          <div v-else class="user-icon" @click="changePage('/account')">
+            <i class="fa-solid fa-user"></i>
+          </div>
+          <p v-if="token">Hi, {{ username }}</p>
         </div>
       </div>
     </div>
@@ -114,6 +123,7 @@ const changeLanguage = () => {
 }
 .header .LoginRegister .LoginRegister-box {
   display: flex;
+  align-items: center;
   gap: 20px;
 }
 .header .LoginRegister .LoginRegister-box .language-icon i {

@@ -3,7 +3,9 @@ export const setToken = (token) => {
 };
 
 export const getToken = () => {
-  return localStorage.getItem("R-TOKEN") || "";
+  const user = localStorage.getItem('user')
+
+  return user ? JSON.parse(user).token : ''
 };
 
 export const setLanguage = (token) => {
